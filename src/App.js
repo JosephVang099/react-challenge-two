@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+// *VERY EASY:*
+
+import { render } from "@testing-library/react";
+
+import React from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  render ();
+    return (
+      <div>
+        <h1>Joseph</h1>
+        <p>704-999-2323</p>
+        <p>August 13, 1999</p>
+      </div>
+    );
 }
 
 export default App;
